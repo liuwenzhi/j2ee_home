@@ -1,0 +1,10 @@
+1、关于栈的方法需要注意的点：可参考leetcode739题做法
+Deque<Integer> stack = new ArrayDeque<>();
+        //peek方法获取头，但是不删除这个头
+        stack.peek();
+        //获取头部元素
+        stack.pop();
+        //在头部位置添加1
+        stack.push(1);
+        //在尾部添加2，注意和push的区别
+        stack.add(1);
